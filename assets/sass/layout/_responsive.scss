@@ -1,0 +1,38 @@
+
+@media screen and (max-width:768px){
+    #hero .fondocolor .hero-text{
+         padding:18% 20% 0% 20%;
+        #titulo{
+          font-size: 3em;
+        }
+    }
+    
+    .navbar-inverse .navbar-brand{
+        #titulo{
+            font-size: 1.3em;
+        }
+    }
+    .navbar-inverse .navbar-toggle {
+        margin-top: 15px;
+    }
+    .avatar{
+        width: 40%;
+    }
+    #contactme{
+        .red-social{
+            width:70px;
+            height: 70px;
+            font-size: 1em;
+        }
+    }
+    
+
+
+}
+@media screen and (max-width:992px){
+        //about
+    .i-principal{
+	   padding:15% 15% 0%;
+
+    }
+}

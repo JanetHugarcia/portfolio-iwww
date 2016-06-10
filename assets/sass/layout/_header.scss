@@ -1,0 +1,82 @@
+.navbar-inverse {
+    background-color: $colorPrincipal;
+    border:none;
+    border-radius: 0;
+    margin-bottom: 0px;
+}
+.navbar-brand {
+    height: auto;
+    padding: 10px 20px 10px;
+}
+.navbar-right{
+	padding-top: 15px;
+    padding-bottom: 5px;
+}
+.navbar-inverse .navbar-toggle {
+	margin-top:25px;
+  border-color:transparent;
+  &:hover{
+    background-color:$colorSecundario;
+  }
+}
+.navbar-inverse .navbar-toggle .icon-bar {
+    background-color: white;
+}
+.navbar-inverse .navbar-nav > .active > a,.navbar-inverse .navbar-nav > .active > a:hover{
+	    background-color: $colorSecundario;
+}
+.navbar-inverse .navbar-nav > li > a {
+  color:white;
+  &:hover{
+    color:$cielolight;
+
+    }
+}
+
+//-----------
+
+a:hover,
+a:focus,
+a:active,
+a.active {
+    color: #17d0d5;
+}
+.navbar-brand:hover,
+.navbar-brand:focus,
+.navbar-brand:active,
+.navbar-brand:active {
+    color: $fuxia;
+}
+.navbar-default .navbar-nav>.active>a {
+    border-radius: 0;
+    color: #fff;
+    background-color: #1ee2e7;
+}
+.navbar-default .navbar-nav>.active>a:hover,
+.navbar-default .navbar-nav>.active>a:focus {
+    color: #fff;
+    background-color: #17d0d5;
+}
+
+/* --- Clase que agregaremos cuando el usuario haga scroll --- */
+
+.navstatic{
+    background-color:#C8293F;
+    padding: 4px 0px;
+    -webkit-transition: background .5s ease-in-out,padding .5s ease-in-out;
+    -moz-transition: background .5s ease-in-out,padding .5s ease-in-out;
+    transition: background .5s ease-in-out,padding .5s ease-in-out;
+}
+
+.menu-fixed {
+  background-color:#C8293F;
+  padding:0px;
+  position:fixed;
+  z-index:1000;
+  top:0;
+  width:100%;
+  box-shadow:0px 4px 3px rgba(0,0,0,.5);
+	-webkit-transition: background .5s ease-in-out,padding .5s ease-in-out;
+	-moz-transition: background .5s ease-in-out,padding .5s ease-in-out;
+	transition: background .5s ease-in-out,padding .5s ease-in-out;
+}

@@ -1,0 +1,8 @@
+@function icon-long-shadow($numero,$color){
+	$text-shadow: 1px 1px #{$color};
+	@for $i from 1 through $numero{
+		$text-shadow: '#{$text-shadow},
+			#{$i}px #{$i}px #{$color}';
+	}
+	@return unquote($text-shadow);
+}
